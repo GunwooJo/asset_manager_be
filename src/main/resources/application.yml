@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: optional:file:.env
+
+google:
+  oauth:
+    clientId: ${GOOGLE_CLIENT_ID}
+    clientSecretPassword: ${GOOGLE_CLIENT_SECRET_PASSWORD}
+    redirectUri: ${GOOGLE_REDIRECT_URI}
