@@ -7,3 +7,6 @@ google:
     clientId: ${GOOGLE_CLIENT_ID}
     clientSecretPassword: ${GOOGLE_CLIENT_SECRET_PASSWORD}
     redirectUri: ${GOOGLE_REDIRECT_URI}
+
+cors:
+  allowedOrigin: "http://localhost:5173"
